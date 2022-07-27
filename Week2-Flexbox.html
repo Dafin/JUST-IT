@@ -10,12 +10,16 @@
     background-color: orange;
     /* flex-direction: column; */
     flex-wrap:wrap;
+    justify-items: center;
+    justify-content:space-between;
+
 
 }
 .flex-item{
    
     width: 200px;
     height: 200px;
+    text-align: center;
 }
 
 </style>
@@ -26,10 +30,10 @@
 <br><br><br><br><br>
 <container class="flex-container">
 
-    <div class="flex-item">   a   </div>
-    <div class="flex-item">   b    </div>
-    <div class="flex-item">   c    </div>
-    <div class="flex-item">   d    </div>
+    <div class="flex-item">   About   </div>
+    <div class="flex-item">   Social    </div>
+    <div class="flex-item">   Contact    </div>
+    <div class="flex-item">   Map    </div>
 
 </container>
 
@@ -37,3 +41,13 @@
 
 </body>
 </html>
+<!-- 
+em = Relative to the font-size of the element (2em means 2 times the size of the current font)
+
+rem = Relative to font-size of the root element - in html doc root is always <html>
+
+vh = Relative to 1% of the height of the viewport*
+
+vw = Relative to 1% of the width of the viewport*
+
+% = Relative to viewport* -->
